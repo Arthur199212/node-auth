@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "npm dev --prefix api"
+    "dev": "npm run dev --prefix api"
   },
   "keywords": [],
   "author": "",
