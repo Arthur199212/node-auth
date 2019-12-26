@@ -9,6 +9,9 @@
 - express-session + Redis
 - MongoDB + Mongoose
 
+### DevOps
+- Docker + docker-compose
+
 ## Dev setup
 
 ```sh
