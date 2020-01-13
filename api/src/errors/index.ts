@@ -9,3 +9,11 @@ export class BadRequest extends HttpError {
     this.status = 400
   }
 }
+
+export class Unautherized extends HttpError {
+  constructor (message = 'Unautherized') {
+    super(message)
+
+    this.status = 401
+  }
+}

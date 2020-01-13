@@ -33,7 +33,9 @@ npm run down
 ### curl
 
 ```sh
-curl -v -X POST localhost:3000/register -H "Content-Type:application/json" -d "{\"email\":\"arthur@mail.com\",\"name\":\"Arthur\",\"password\":\"secret12\", \"passwordConfirmation\":\"secret12\"}"
+curl -v -X POST localhost:3000/register -H "Content-Type:application/json" -d "{\"email\":\"arthur@mail.com\",\"name\":\"Arthur\",\"password\":\"Secret12\", \"passwordConfirmation\":\"Secret12\"}"
+
+curl -v -X POST localhost:3000/login -H "Content-Type:application/json" -d "{\"email\":\"arthur@mail.com\",\"password\":\"Secret12\"}"
 ```
 
 ### docker
